@@ -1,4 +1,4 @@
-# BillManagementSystem
+# Bill Management System
 Bill Management System made with C++
 
 Highlights:
