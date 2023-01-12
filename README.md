@@ -7,3 +7,15 @@ Highlights:
 -> Admin Access
 -> User Name & Password are Encrypted 
 -> Payment Mode Selection
+-> View Privious bills
+
+
+Concepts of C++ Used in this project
+-> Basic C++ Programing
+-> C++ Library
+-> Class and Objects
+-> Inheritance
+-> File handling
+-> Exception handling
+-> Encryption of Sensitive data.
+-> Menu Driven Programing
