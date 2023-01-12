@@ -284,7 +284,6 @@ void Bill ::output1()
     time_ptr = time(NULL);
     tm *tm_local = localtime(&time_ptr);
 
-
     ifstream infile("COUNT.TXT");
     infile >> a;
 
@@ -465,13 +464,22 @@ public:
     {
         cout << "\n\n\n\t\t\tEnter Access Password: ";
         cin >> apw;
-        if (apw == "ABHI")
+        int x;
+        try
         {
-            return 0;
+            if (apw == "ABHI")
+            {
+                return 0;
+            }
+            else
+            {
+                throw x;
+            }
         }
-        else
+        catch (int x)
         {
             cout << "\n\n\n\t\t\tPlease enter correct Access Password!!!" << endl;
+            return 1;
         }
     }
 };
@@ -485,7 +493,7 @@ int main()
 
     // Login
     LoginManager log;
-    // log.addUser("Kamal", "kpm", "kpm1"); // this for Initial user login
+    // log.addUser("Admin", "admin-us", "admin-pw"); // this for Initial user login
 
     cout << "\n\n\t\t\t------------------------------";
     cout << "\n\t\t\t\t***WELCOME***";
