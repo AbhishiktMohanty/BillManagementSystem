@@ -7,7 +7,7 @@ Highlights:
 -> Admin Access
 -> User Name & Password are Encrypted 
 -> Payment Mode Selection
--> View Privious bills
+-> View Previous bills
 
 
 Concepts of C++ Used in this project
